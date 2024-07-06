@@ -1,0 +1,353 @@
+@charset "utf-8";
+body{
+	background: #000;
+	margin: 0px;
+	}
+
+.shapka{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	height: 80px;
+	background: #000;
+	
+}
+
+.shapka_logo{
+	margin-left: 40px;
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 300;
+	font-size: 36px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.shapka_logo:hover{
+	color: #a400ff;
+}
+
+.menu{
+	list-style: none;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a {
+	text-decoration: none;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.menu li a:hover {
+	color: #a400ff;
+}
+
+.callback{
+	margin-right: 50px;
+	padding: 10px 30px;
+	background-color: #a400ff;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.callback:hover{
+	margin-right: 50px;
+	padding: 10px 30px;
+	background-color: #fff;
+	border: none;
+	border-radius: 100px;
+	color: #000;
+	text-decoration: none;
+}
+
+
+h1{
+	padding-top: 50px;
+	padding-bottom: 80px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 400;
+	font-size: 32px;
+	color: #fff;
+	margin: 0;
+}
+
+
+h2{
+	padding-top: 100px;
+	padding-bottom: 80px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 400;
+	font-size: 32px;
+	color: #fff;
+	margin: 0;
+}
+
+.card-body{
+	width: 340px;
+	height: 442px;
+	border-radius: 80px;
+	border-style: solid;
+	border-color: #a400ff;
+	border-width: 4px;
+}
+
+.card-title{
+	margin-top: 70px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+
+.card-text1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0px;
+	padding-bottom: 15px;
+}
+
+.card-text2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0px;
+	padding-bottom: 50px;
+}
+
+
+.js-button-campaign {
+	padding: 10px 30px;
+	color: #fff;
+    background-color: #a400ff;
+    border-color: #a400ff;
+	border-radius: 100px;
+	margin-bottom: 5px;
+}
+
+.js-button-campaign:hover{
+	padding: 10px 30px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 100px;
+	border-color:#fff;
+	text-decoration: none;
+}
+
+.js-button-campaign:focus{
+	padding: 10px 30px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 100px;
+	border-color:#0d6efd;
+	text-decoration: none;
+}
+
+
+.btn-2{
+	padding: 10px 30px;
+	border-radius: 100px;
+}
+
+.btn-2:hover{
+	padding: 10px 30px;
+	background-color: #000;
+	border-radius: 100px;
+	color: #fff;
+}
+
+.flex-contact{
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+}
+
+.contact{
+	display: flex;
+	flex-flow: column;
+	padding-left: 100px;
+
+}
+.phone{
+	display: flex;
+	align-items: center;
+}
+
+.mail{
+	display: flex;
+	align-items: center;
+}
+
+.map{
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.contact p{
+	padding-left: 10px;
+	font-family: 'Montserrat', sans-serif ;
+	color: #fff;
+  	font-weight: 300;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.contact a{
+	
+	padding-left: 10px;
+	font-family: 'Montserrat', sans-serif ;
+	color: #fff;
+  	font-weight: 300;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.contact img{
+	width: 25px;
+	height: 25px; 
+}
+
+.icon img{
+	width: 50px;
+	height: 50px; 
+	
+}
+
+
+.podval{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	height: 75px;
+	background: #000;
+	padding-top: 100px;
+}
+
+.podval_menu{
+	list-style: none;
+	padding-right: 50px;
+}
+
+.podval_menu li{
+	display: inline-block;
+}
+
+.podval_menu li a {
+	text-decoration: none;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.podval_menu li a:hover {
+	color: #a400ff;
+}
+
+
+img{
+	width: 110px;
+	height: 110px;
+}
+
+h3{
+	padding-top: 35px;
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 400;
+	font-size: 32px;
+	color: #000;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .8);
+	display: none;
+}
+
+.popup {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 582px;
+	height: 426px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+	box-sizing: border-box;
+	background-color: #fff;
+	color: #000;
+	border-radius: 45px;
+	border-style: solid;
+	border-color: #a400ff;
+	border-width: 4px;
+}
+
+.close-popup {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.close-popup:before {
+	content: '';
+	background-color: #a400ff;
+	position: absolute;
+	height: 2px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(-45deg);
+}
+
+.close-popup:after {
+	content: '';
+	background-color: #a400ff;
+	position: absolute;
+	height: 2px;
+	width: 31px;
+	top: 11px;
+	transform: rotate(45deg);
+	left: -4px;
+}
+
+@media screen and (max-width: 768px) {
+
+	.popup {
+		width: 100%;
+		height: 100vh;
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
